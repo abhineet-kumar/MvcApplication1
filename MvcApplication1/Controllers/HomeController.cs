@@ -10,10 +10,10 @@ namespace MvcApplication1.Controllers
     [HandleError]
     public class HomeController : Controller
     {
-        string te = test.Aa();
+        string tew = test.Aa();
         public ActionResult Index()
         {
-            ViewData["Message"] = te;
+            ViewData["Message"] = tew;
 
             return View();
         }
